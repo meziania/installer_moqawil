@@ -1,9 +1,14 @@
-# Site web — Installation Moqawil (SOAITRAV)
+# Site web — Installation SOAITRAV
 
-Site statique bilingue **FR / AR** pour :
+Site statique bilingue **FR / AR** pour télécharger l'installeur et lire le guide.
 
-- télécharger l'installeur Windows ;
-- lire le guide d'utilisation.
+## Repo
+
+https://github.com/meziania/installer_moqawil
+
+Installeur (GitHub Release) :
+
+https://github.com/meziania/installer_moqawil/releases/download/v1.0.0/SOAITRAV-Setup-1.0.0.exe
 
 ## Contenu
 
@@ -11,38 +16,22 @@ Site statique bilingue **FR / AR** pour :
 instaler_moqawil/
   index.html
   assets/
-  downloads/          ← placer Moqawil-Setup-1.0.0.exe ici
+  downloads/
+  vercel.json
   README.md
 ```
 
-## Repo GitHub
+Aucun identifiant de connexion n'est publié sur ce site.
+Les accès sont communiqués séparément par SOAITRAV.
 
-https://github.com/meziania/installer_moqawil
-
-L'installeur Windows (~150 Mo) est publié en **GitHub Release** (limite Git 100 Mo) :
-
-https://github.com/meziania/installer_moqawil/releases/download/v1.0.0/Moqawil-Setup-1.0.0.exe
-
-## Préparer / republier le .exe
+## Republier l'installeur
 
 ```powershell
 npm run dist:desktop
 npm run sync:installer-site
-gh release upload v1.0.0 instaler_moqawil/downloads/Moqawil-Setup-1.0.0.exe --clobber --repo meziania/installer_moqawil
+gh release upload v1.0.0 instaler_moqawil/downloads/SOAITRAV-Setup-1.0.0.exe --clobber --repo meziania/installer_moqawil
 ```
 
-## Prévisualiser en local
+## Vercel
 
-```powershell
-npx --yes serve instaler_moqawil -p 4173
-```
-
-Ouvrir : http://localhost:4173
-
-## GitHub Pages
-
-Settings → Pages → Deploy from branch `main` / root (ou `/docs` si besoin).
-
-## Langues
-
-Boutons **FR** / **AR** en haut à droite. L'arabe active le mode RTL.
+Import du repo `meziania/installer_moqawil` — Framework: Other — Deploy.
