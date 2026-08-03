@@ -130,8 +130,8 @@
           <div class="download-box">
             <div class="download-meta">
               <strong>SOAITRAV-Setup-1.0.0.exe</strong>
-              <span class="only-fr">Taille approximative : ~150 Mo · Windows x64</span>
-              <span class="only-ar">الحجم التقريبي: ~150 ميغابايت · Windows x64</span>
+              <span class="only-fr">Taille approximative : ~266 Mo · Windows x64</span>
+              <span class="only-ar">الحجم التقريبي: ~266 ميغابايت · Windows x64</span>
               <span class="only-fr"
                 >Après installation, lancez <strong>SOAITRAV</strong> depuis le Bureau ou le menu
                 Démarrer.</span
@@ -214,8 +214,8 @@
               <div class="icon">02</div>
               <h3 class="only-fr">Commercial</h3>
               <h3 class="only-ar">تجاري</h3>
-              <p class="only-fr">Clients, devis imprimables, factures et encaissements.</p>
-              <p class="only-ar">الزبائن، عروض أسعار قابلة للطباعة، الفواتير والتحصيل.</p>
+              <p class="only-fr">Clients, devis, BL, factures imprimables et encaissements.</p>
+              <p class="only-ar">الزبائن، عروض الأسعار، سندات التسليم، الفواتير والتحصيل.</p>
             </article>
             <article class="feature">
               <div class="icon">03</div>
@@ -223,6 +223,20 @@
               <h3 class="only-ar">الورش</h3>
               <p class="only-fr">Projets, tâches, dépenses et paramètres de société (ICE, TVA…).</p>
               <p class="only-ar">المشاريع، المهام، المصاريف وإعدادات الشركة (ICE، الضريبة…).</p>
+            </article>
+            <article class="feature">
+              <div class="icon">04</div>
+              <h3 class="only-fr">Achats &amp; Stock</h3>
+              <h3 class="only-ar">المشتريات والمخزون</h3>
+              <p class="only-fr">Fournisseurs, bons de commande / réception, factures d'achat et stock matériaux.</p>
+              <p class="only-ar">الموردون، أوامر الشراء / الاستلام، فواتير الشراء ومخزون المواد.</p>
+            </article>
+            <article class="feature">
+              <div class="icon">05</div>
+              <h3 class="only-fr">RH &amp; Équipement</h3>
+              <h3 class="only-ar">الموارد البشرية والمعدات</h3>
+              <p class="only-fr">Ouvriers, main d'œuvre, spécialités et parc d'équipements.</p>
+              <p class="only-ar">العمال، اليد العاملة، التخصصات وأسطول المعدات.</p>
             </article>
           </div>
         </div>
@@ -263,14 +277,34 @@
               <a href="#g-devis"
                 ><span class="only-fr">Devis</span><span class="only-ar">عروض الأسعار</span></a
               >
+              <a href="#g-bl"
+                ><span class="only-fr">Bons de livraison</span
+                ><span class="only-ar">سندات التسليم</span></a
+              >
               <a href="#g-factures"
                 ><span class="only-fr">Factures</span><span class="only-ar">الفواتير</span></a
               >
               <a href="#g-paiements"
                 ><span class="only-fr">Paiements</span><span class="only-ar">المدفوعات</span></a
               >
+              <a href="#g-achats"
+                ><span class="only-fr">Achats</span><span class="only-ar">المشتريات</span></a
+              >
+              <a href="#g-stock"
+                ><span class="only-fr">Stock</span><span class="only-ar">المخزون</span></a
+              >
+              <a href="#g-rh"
+                ><span class="only-fr">RH</span><span class="only-ar">الموارد البشرية</span></a
+              >
+              <a href="#g-equipement"
+                ><span class="only-fr">Équipement</span><span class="only-ar">المعدات</span></a
+              >
               <a href="#g-depenses"
                 ><span class="only-fr">Dépenses</span><span class="only-ar">المصاريف</span></a
+              >
+              <a href="#g-utilisateurs"
+                ><span class="only-fr">Utilisateurs</span
+                ><span class="only-ar">المستخدمون</span></a
               >
               <a href="#g-parametres"
                 ><span class="only-fr">Paramètres</span><span class="only-ar">الإعدادات</span></a
@@ -351,31 +385,44 @@
                 <h3 class="only-ar">5. عروض الأسعار</h3>
                 <p class="only-fr">
                   Créez un devis : client, lignes (désignation, quantité, prix), TVA. La
-                  référence est générée selon vos paramètres. Ouvrez le détail pour imprimer /
-                  exporter.
+                  référence est générée selon vos paramètres. Ouvrez le détail pour imprimer,
+                  exporter, ou convertir en facture / bon de livraison.
                 </p>
                 <p class="only-ar">
                   أنشئ عرض سعر: الزبون، الأسطر (الوصف، الكمية، السعر)، الضريبة. يُولَّد المرجع
-                  حسب إعداداتك. افتح التفاصيل للطباعة / التصدير.
+                  حسب إعداداتك. افتح التفاصيل للطباعة / التصدير أو التحويل إلى فاتورة / سند تسليم.
+                </p>
+              </article>
+
+              <article class="guide-card" id="g-bl">
+                <h3 class="only-fr">6. Bons de livraison</h3>
+                <h3 class="only-ar">6. سندات التسليم</h3>
+                <p class="only-fr">
+                  Créez et imprimez vos bons de livraison liés aux clients et projets. Export
+                  Excel disponible depuis la liste.
+                </p>
+                <p class="only-ar">
+                  أنشئ واطبع سندات التسليم المرتبطة بالزبائن والمشاريع. يتوفر تصدير Excel من
+                  القائمة.
                 </p>
               </article>
 
               <article class="guide-card" id="g-factures">
-                <h3 class="only-fr">6. Factures</h3>
-                <h3 class="only-ar">6. الفواتير</h3>
+                <h3 class="only-fr">7. Factures</h3>
+                <h3 class="only-ar">7. الفواتير</h3>
                 <p class="only-fr">
-                  Suivez les factures émises, leurs montants et statuts. Reliez-les aux clients
-                  et aux encaissements pour un suivi clair.
+                  Suivez les factures émises, leurs montants et statuts. Ouvrez le détail pour
+                  imprimer. Reliez-les aux clients et aux encaissements.
                 </p>
                 <p class="only-ar">
-                  تابع الفواتير الصادرة ومبالغها وحالاتها. اربطها بالزبائن والتحصيلات لمتابعة
-                  واضحة.
+                  تابع الفواتير الصادرة ومبالغها وحالاتها. افتح التفاصيل للطباعة. اربطها بالزبائن
+                  والتحصيلات.
                 </p>
               </article>
 
               <article class="guide-card" id="g-paiements">
-                <h3 class="only-fr">7. Paiements clients</h3>
-                <h3 class="only-ar">7. مدفوعات الزبائن</h3>
+                <h3 class="only-fr">8. Paiements clients</h3>
+                <h3 class="only-ar">8. مدفوعات الزبائن</h3>
                 <p class="only-fr">
                   Enregistrez les encaissements (espèces, chèque, virement…). Les chèques en
                   attente apparaissent aussi sur le tableau de bord.
@@ -386,9 +433,58 @@
                 </p>
               </article>
 
+              <article class="guide-card" id="g-achats">
+                <h3 class="only-fr">9. Achats</h3>
+                <h3 class="only-ar">9. المشتريات</h3>
+                <p class="only-fr">
+                  Gérez fournisseurs, bons de commande, bons de réception, factures d'achat et
+                  paiements fournisseurs depuis le menu Achats.
+                </p>
+                <p class="only-ar">
+                  أدِر الموردين، أوامر الشراء، سندات الاستلام، فواتير الشراء ومدفوعات الموردين من
+                  قائمة المشتريات.
+                </p>
+              </article>
+
+              <article class="guide-card" id="g-stock">
+                <h3 class="only-fr">10. Stock &amp; matériel</h3>
+                <h3 class="only-ar">10. المخزون والمواد</h3>
+                <p class="only-fr">
+                  Suivez les matériaux, les emplacements et les mouvements d'entrée / sortie
+                  liés aux chantiers.
+                </p>
+                <p class="only-ar">
+                  تابع المواد، مواقع التخزين وحركات الدخول / الخروج المرتبطة بالورش.
+                </p>
+              </article>
+
+              <article class="guide-card" id="g-rh">
+                <h3 class="only-fr">11. RH</h3>
+                <h3 class="only-ar">11. الموارد البشرية</h3>
+                <p class="only-fr">
+                  Enregistrez ouvriers, spécialités et saisies de main d'œuvre (heures /
+                  montants) par projet.
+                </p>
+                <p class="only-ar">
+                  سجّل العمال والتخصصات وساعات / مبالغ اليد العاملة حسب المشروع.
+                </p>
+              </article>
+
+              <article class="guide-card" id="g-equipement">
+                <h3 class="only-fr">12. Équipement</h3>
+                <h3 class="only-ar">12. المعدات</h3>
+                <p class="only-fr">
+                  Inventoriez votre parc d'équipements (référence, catégorie, statut) pour le
+                  suivi chantier.
+                </p>
+                <p class="only-ar">
+                  سجّل أسطول المعدات (المرجع، الفئة، الحالة) لمتابعة الورش.
+                </p>
+              </article>
+
               <article class="guide-card" id="g-depenses">
-                <h3 class="only-fr">8. Dépenses</h3>
-                <h3 class="only-ar">8. المصاريف</h3>
+                <h3 class="only-fr">13. Dépenses</h3>
+                <h3 class="only-ar">13. المصاريف</h3>
                 <p class="only-fr">
                   Saisissez les dépenses du chantier ou de la société (matériaux, sous-traitance,
                   etc.) et rattachez-les à un projet quand c'est possible.
@@ -399,23 +495,30 @@
                 </p>
               </article>
 
+              <article class="guide-card" id="g-utilisateurs">
+                <h3 class="only-fr">14. Utilisateurs</h3>
+                <h3 class="only-ar">14. المستخدمون</h3>
+                <p class="only-fr">
+                  Créez et gérez les comptes qui accèdent à l'application (nom, e-mail, rôle).
+                </p>
+                <p class="only-ar">
+                  أنشئ وأدر الحسابات التي تصل إلى التطبيق (الاسم، البريد، الدور).
+                </p>
+              </article>
+
               <article class="guide-card" id="g-parametres">
-                <h3 class="only-fr">9. Paramètres</h3>
-                <h3 class="only-ar">9. الإعدادات</h3>
+                <h3 class="only-fr">15. Paramètres</h3>
+                <h3 class="only-ar">15. الإعدادات</h3>
                 <p class="only-fr">
                   Configurez la société (nom, logo, adresse, ICE, IF, RC, téléphone, e-mail), le
-                  taux de TVA et la numérotation des documents (devis / factures).
+                  taux de TVA et la numérotation de tous les documents (devis, factures, BL,
+                  achats…).
                 </p>
                 <p class="only-ar">
                   اضبط بيانات الشركة (الاسم، الشعار، العنوان، ICE، IF، RC، الهاتف، البريد)،
-                  نسبة الضريبة وترقيم الوثائق (عروض الأسعار / الفواتير).
+                  نسبة الضريبة وترقيم كل الوثائق (عروض الأسعار، الفواتير، سندات التسليم،
+                  المشتريات…).
                 </p>
-                <ul class="only-fr">
-                  <li>Modules à venir (bientôt) : Achats, Stock, RH, Équipement, Utilisateurs.</li>
-                </ul>
-                <ul class="only-ar">
-                  <li>وحدات قادمة قريباً: المشتريات، المخزون، الموارد البشرية، المعدات، المستخدمون.</li>
-                </ul>
               </article>
             </div>
           </div>
